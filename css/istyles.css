@@ -1,0 +1,45 @@
+body {
+    background: url('/pic/code-big.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 8vw;
+}
+
+span {
+    padding-left: 20px;
+    color: #4CAF50;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: rgb(3, 3, 3);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #163317; /* Green */
+    color: white;
+}
+  
